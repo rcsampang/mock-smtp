@@ -8,7 +8,7 @@ const path = require('path');
 
 
 
-const SMTP_SERVER_PORT = process.env.SMTP_SERVER_PORT  || 8025
+const SMTP_SERVER_PORT = process.env.SMTP_SERVER_PORT  || 587
 const SERVER_PORT = process.env.SERVER_PORT || 8080
 const WS_SERVER_PORT = process.env.WS_SERVER_PORT || 8081
 const SERVER_HOST = process.env.SERVER_HOST || "localhost"
