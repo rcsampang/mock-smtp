@@ -12,6 +12,6 @@ RUN npm ci --only=production
 
 EXPOSE 8080
 EXPOSE 8081
-EXPOSE 8025
+EXPOSE 587
 
 CMD [ "node", "app.js" ]
